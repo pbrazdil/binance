@@ -100,7 +100,7 @@ module Binance
                 # dust_log
                 { name: :dust_log, client: :withdraw,
                 action: :get, endpoint: :dust_log }
-            ].freeze
+            ]
         end
 
         class REST_FUTURE
