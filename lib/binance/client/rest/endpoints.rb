@@ -34,7 +34,7 @@ module Binance
                 system_status:    'v3/systemStatus.html',
                 withdraw_fee:     'v3/withdrawFee.html',
                 dust_log:         'v3/userAssetDribbletLog.html'
-            }.freeze
+            }
         end
 
         class REST_FUTURE
@@ -80,7 +80,7 @@ module Binance
                 system_status:       'v1/systemStatus.html',
                 withdraw_fee:        'v1/withdrawFee.html',
                 dust_log:            'v1/userAssetDribbletLog.html'
-            }.freeze
+            }
         end
 
     end
